@@ -8,7 +8,8 @@ let age = 30
 let isLoggedIn = false
 let state;
 
-// PRIMITIVE DATA TYPE:-
+// PRIMITIVE DATA TYPE:- 7 types
+// Boolean
 // number => 2 to power 53
 // bigInt
 // string => true/false
@@ -18,8 +19,10 @@ let state;
 
 // OBJECT
 
-
 console.log(typeof 'riya')
 console.log(typeof age)
 console.log(typeof null)   // null is object 
 console.log(typeof undefined) // undefined (its type)
+
+//Primitive DataTypes:-
+
