@@ -29,3 +29,39 @@ let conString = 33
 let convertString= String(conString);
 console.log(convertString);
 console.log(typeof convertString);
+
+
+
+//--------------------------------operations------------------------------
+
+let value = 3;
+let negvalue = -value;
+
+console.log(negvalue);
+
+//console.log(2+2)
+//console.log(2-2)
+//console.log(2*2)
+//console.log(2/2)
+//console.log(2%2) 
+//console.log(2**2)  // 2 rais the power2 
+
+let str1 = 'riya'
+let str2 = 'sharma'
+
+let str3 = str1+str2
+// console.log(str3);
+
+// console.log("1" + 2 );
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+console.log(+ "")
+console.log(+true)
+// console.log(true+)     //error
+
+let temp = 100;
+// temp++;       // postfix
+console.log(temp);
+++temp;              // prefix
+console.log(temp);
