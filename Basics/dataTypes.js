@@ -24,5 +24,5 @@ console.log(typeof age)
 console.log(typeof null)   // null is object 
 console.log(typeof undefined) // undefined (its type)
 
-//Primitive DataTypes:-
+
 
