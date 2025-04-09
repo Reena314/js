@@ -52,16 +52,16 @@ let str2 = 'sharma'
 let str3 = str1+str2
 // console.log(str3);
 
-// console.log("1" + 2 );
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2 );  // 12
+// console.log(1 + "2");     // 12
+// console.log("1" + 2 + 2); // 122
+// console.log(1 + 2 + "2"); // 32
 console.log(+ "")
 console.log(+true)
 // console.log(true+)     //error
 
 let temp = 100;
-// temp++;       // postfix
+temp++;       // postfix
 console.log(temp);
 ++temp;              // prefix
 console.log(temp);

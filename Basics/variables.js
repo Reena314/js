@@ -3,7 +3,7 @@ let empEmail = "rahul@google.com"
 var empPwd = "3412"
 empCity = "jaipur"
  
-//empId = 401   // not allowed
+//empId = 401   // not allowed and const keyword dontchange value
 empEmail = "riya@google.com"
 empPwd = "erty"
 empCity = "mp"
