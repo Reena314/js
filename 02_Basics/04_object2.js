@@ -40,4 +40,61 @@ const obj5 = {...obj1,...obj2}   // mostly used
 console.log(obj5);
 
 
+const user = [
+    {
+        id : 301,
+        uName : 'rahul'
+    },
+    {
+        id : 301,
+        uName : 'rakul'
+    },
+    {
+        id : 301,
+        uName : 'rhul'
+    }
+]
+ 
+  console.log(user[2].uName);
 
+  console.log(emp);
+
+  const checkKeys = Object.keys(emp);
+  
+  console.log(checkKeys);
+  console.log(Object.values(emp));
+  
+  console.log( emp.hasOwnProperty('login'));
+
+
+  const destruct_obj = {
+          id : 123,
+          name :'asd'
+  }
+   destruct_obj.id
+
+   console.log(destruct_obj.id);
+   const{name} = destruct_obj
+  console.log(name);
+  const {name:destruct} = destruct_obj;
+  console.log(destruct);
+  
+         //react code
+  const nav =({company})=>{
+//code
+
+  }
+nav(company = "riya")
+
+
+
+    //  json
+
+    [
+        {
+            "name" : "ghhgjj",
+            "loc"  : "ghgdw"
+
+        }
+    ]
+  
