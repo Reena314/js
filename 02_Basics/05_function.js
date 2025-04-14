@@ -23,12 +23,26 @@ const MyFunction = function(){
 
 function addnumbers(num1 , num2){
     return (num1+num2);
-    console.log(result);       // after return not work 
+    console.log("test");       // after return not work 
  }
  const result = addnumbers(3, 5)
 
  console.log(result);
+
+
+
+//  function logginUser(username ){
+//     return `${username} is logged in`
+//  }
+// console.log(logginUser("raja"))
  
- 
+function logginUser(username ){
+    if(!username){
+       console.log("plz enter a username")
+       return
+    }
+    return `${username} is logged in`
+ }
+console.log(logginUser())
  
  
