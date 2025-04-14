@@ -76,11 +76,11 @@ const user = [
    console.log(destruct_obj.id);
    const{name} = destruct_obj
   console.log(name);
-  const {name:destruct} = destruct_obj;
+  const {name:destruct} = destruct_obj;      // deStructur { nhjdjf}
   console.log(destruct);
   
          //react code
-  const nav =({company})=>{
+  const nav =({company})=>{      // destructure
 //code
 
   }
@@ -88,13 +88,21 @@ nav(company = "riya")
 
 
 
-    //  json
+ // -----------  json------------//
 
-    [
-        {
-            "name" : "ghhgjj",
-            "loc"  : "ghgdw"
+    // 
+    //     {
+    //         "name" : "ghhgjj",
+    //         "loc"  : "ghgdw"
 
-        }
-    ]
-  
+    //     }
+    // 
+
+
+
+//other example
+
+    //  [
+    //     {},
+    //     {}
+    //  ]
