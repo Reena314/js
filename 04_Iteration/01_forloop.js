@@ -28,11 +28,13 @@ for (let i = 0; i < 10; i++) {
     
 }
 // ++++++++++++++++++++++++++++Array+++++++++++++++++++++++
-  let
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+  let myArray = ["orange", "mango", "graps", "banana"]
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[3];
+   
     
 }
+
  // +++++++++++++++++++++++++++++++++++++++++break and continue++++++++++++
 
 //  for (let index = 1; index < 20; index++) {
